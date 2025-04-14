@@ -24,15 +24,15 @@
     @stack('styles')
 </head>
 <body>
-    @include('frontend.partials.preloader')
-    @include('frontend.partials.sidebar')
-    @include('frontend.partials.header')
+    @include('orders.partials.preloader')
+    @include('orders.partials.sidebar')
+    @include('orders.partials.header')
 
     <main>
         @yield('content')
     </main>
 
-    @include('frontend.partials.footer')
+    @include('orders.partials.footer')
 
     @stack('scripts')
 </body>

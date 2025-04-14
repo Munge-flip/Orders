@@ -27,17 +27,16 @@
           <i class="ti ti-news"></i>
         </li>
         <li class="pc-item">
-          <a href="../pages/login.html" class="pc-link">
-            <span class="pc-micon"><i class="ti ti-lock"></i></span>
-            <span class="pc-mtext">Login</span>
+        <a href="{{ route('orders.create') }}" class="pc-link">
+            <span class="pc-mtext">Add Order</span>
           </a>
         </li>
         <li class="pc-item">
-          <a href="../pages/register.html" class="pc-link">
-            <span class="pc-micon"><i class="ti ti-user-plus"></i></span>
-            <span class="pc-mtext">Register</span>
+        <a href="{{ route('orders.index') }}" class="pc-link">
+            <span class="pc-mtext">View Order</span>
           </a>
         </li>
+        
 
         <li class="pc-item pc-caption">
           <label>Other</label>

@@ -32,7 +32,7 @@
                         <td class="py-3 px-4">{{ $order->price }}</td>
                         <td class="py-3 px-4">
                             <div class="flex gap-2">
-                                <a href="{{ route('orders.edit', $order->id) }}" class="bg-yellow-400 hover:bg-yellow-500 text-white py-1 px-3 rounded text-sm">Edit</a>
+                                <a href="{{ route('orders.edit', $order->id) }}" class="bg-yellow-500 hover:bg-yellow-600 text-white py-1 px-3 rounded text-sm">Edit</a>
 
                                 <form action="{{ route('orders.destroy', $order->id) }}" method="POST" onsubmit="return confirm('Are you sure?')">
                                     @csrf
